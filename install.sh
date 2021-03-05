@@ -9,6 +9,15 @@ chmod 644 /usr/share/backgrounds/Lakeside/Lakeside.xml
 cp desktop-backgrounds-lakeside.xml /usr/share/gnome-background-properties
 chmod 644 /usr/share/gnome-background-properties/desktop-backgrounds-lakeside.xml
 
+# Lakeside-dear
+cp -r Lakeside-dear /usr/share/backgrounds
+chown -R root.root /usr/share/backgrounds/Lakeside-dear
+chmod -R 755 /usr/share/backgrounds/Lakeside-dear
+chmod 644 /usr/share/backgrounds/Lakeside-dear/Lakeside-dear.xml
+  
+cp desktop-backgrounds-lakeside-dear.xml /usr/share/gnome-background-properties
+chmod 644 /usr/share/gnome-background-properties/desktop-backgrounds-lakeside-dear.xml
+
 # Firewatch
 cp -r Firewatch /usr/share/backgrounds
 chown -R root.root /usr/share/backgrounds/Firewatch
